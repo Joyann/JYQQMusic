@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62952F571C04473A00558652 /* JYListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F561C04473A00558652 /* JYListViewController.m */; };
+		62952F5A1C044D4500558652 /* JYListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F591C044D4500558652 /* JYListTableViewDataSource.m */; };
+		62952F621C044F6A00558652 /* JYDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F611C044F6A00558652 /* JYDataTool.m */; };
+		62952F641C0450D500558652 /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62952F631C0450D500558652 /* Musics.plist */; };
+		62952F671C04510100558652 /* JYSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F661C04510100558652 /* JYSong.m */; };
+		6295301F1C04550000558652 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530091C04550000558652 /* MJDictionaryCache.m */; };
+		629530201C04550000558652 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295300C1C04550000558652 /* MJExtensionConst.m */; };
+		629530211C04550000558652 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295300E1C04550000558652 /* MJFoundation.m */; };
+		629530221C04550100558652 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530101C04550000558652 /* MJProperty.m */; };
+		629530231C04550100558652 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530121C04550000558652 /* MJPropertyKey.m */; };
+		629530241C04550100558652 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530141C04550000558652 /* MJPropertyType.m */; };
+		629530251C04550100558652 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530161C04550000558652 /* NSObject+MJClass.m */; };
+		629530261C04550100558652 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530181C04550000558652 /* NSObject+MJCoding.m */; };
+		629530271C04550100558652 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295301A1C04550000558652 /* NSObject+MJKeyValue.m */; };
+		629530281C04550100558652 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295301C1C04550000558652 /* NSObject+MJProperty.m */; };
+		629530291C04550100558652 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295301E1C04550000558652 /* NSString+MJExtension.m */; };
+		6295302C1C045AD900558652 /* JYListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295302B1C045AD900558652 /* JYListTableViewCell.m */; };
+		629530491C045BC200558652 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530301C045BC200558652 /* MASCompositeConstraint.m */; };
+		6295304A1C045BC200558652 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530331C045BC200558652 /* MASConstraint.m */; };
+		6295304B1C045BC200558652 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530351C045BC200558652 /* MASConstraintMaker.m */; };
+		6295304C1C045BC200558652 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530371C045BC200558652 /* MASLayoutConstraint.m */; };
+		6295304D1C045BC200558652 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295303B1C045BC200558652 /* MASViewAttribute.m */; };
+		6295304E1C045BC200558652 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295303D1C045BC200558652 /* MASViewConstraint.m */; };
+		6295304F1C045BC200558652 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6295303F1C045BC200558652 /* NSArray+MASAdditions.m */; };
+		629530501C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530421C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		629530511C045BC200558652 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530441C045BC200558652 /* View+MASAdditions.m */; };
+		629530521C045BC200558652 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629530471C045BC200558652 /* ViewController+MASAdditions.m */; };
 		62A2C5531C04413C00B8BEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2C5521C04413C00B8BEBE /* main.m */; };
 		62A2C5561C04413C00B8BEBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2C5551C04413C00B8BEBE /* AppDelegate.m */; };
 		62A2C55C1C04413C00B8BEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A2C55A1C04413C00B8BEBE /* Main.storyboard */; };
@@ -34,6 +61,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62952F551C04473A00558652 /* JYListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYListViewController.h; sourceTree = "<group>"; };
+		62952F561C04473A00558652 /* JYListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYListViewController.m; sourceTree = "<group>"; };
+		62952F581C044D4500558652 /* JYListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYListTableViewDataSource.h; path = JYQQMusic/ListInterface/Model/JYListTableViewDataSource.h; sourceTree = SOURCE_ROOT; };
+		62952F591C044D4500558652 /* JYListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYListTableViewDataSource.m; path = JYQQMusic/ListInterface/Model/JYListTableViewDataSource.m; sourceTree = SOURCE_ROOT; };
+		62952F601C044F6A00558652 /* JYDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYDataTool.h; path = JYQQMusic/Other/Tool/JYDataTool.h; sourceTree = SOURCE_ROOT; };
+		62952F611C044F6A00558652 /* JYDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYDataTool.m; path = JYQQMusic/Other/Tool/JYDataTool.m; sourceTree = SOURCE_ROOT; };
+		62952F631C0450D500558652 /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		62952F651C04510100558652 /* JYSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYSong.h; path = JYQQMusic/ListInterface/Model/JYSong.h; sourceTree = SOURCE_ROOT; };
+		62952F661C04510100558652 /* JYSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYSong.m; path = JYQQMusic/ListInterface/Model/JYSong.m; sourceTree = SOURCE_ROOT; };
+		629530081C04550000558652 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		629530091C04550000558652 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		6295300A1C04550000558652 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		6295300B1C04550000558652 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		6295300C1C04550000558652 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		6295300D1C04550000558652 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		6295300E1C04550000558652 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		6295300F1C04550000558652 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		629530101C04550000558652 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		629530111C04550000558652 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		629530121C04550000558652 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		629530131C04550000558652 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		629530141C04550000558652 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		629530151C04550000558652 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		629530161C04550000558652 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		629530171C04550000558652 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		629530181C04550000558652 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		629530191C04550000558652 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		6295301A1C04550000558652 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		6295301B1C04550000558652 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		6295301C1C04550000558652 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		6295301D1C04550000558652 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		6295301E1C04550000558652 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		6295302A1C045AD900558652 /* JYListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYListTableViewCell.h; sourceTree = "<group>"; };
+		6295302B1C045AD900558652 /* JYListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYListTableViewCell.m; sourceTree = "<group>"; };
+		6295302F1C045BC200558652 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		629530301C045BC200558652 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		629530311C045BC200558652 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		629530321C045BC200558652 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		629530331C045BC200558652 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		629530341C045BC200558652 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		629530351C045BC200558652 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		629530361C045BC200558652 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		629530371C045BC200558652 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		629530381C045BC200558652 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		629530391C045BC200558652 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6295303A1C045BC200558652 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6295303B1C045BC200558652 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6295303C1C045BC200558652 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6295303D1C045BC200558652 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6295303E1C045BC200558652 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6295303F1C045BC200558652 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		629530401C045BC200558652 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		629530411C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		629530421C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		629530431C045BC200558652 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		629530441C045BC200558652 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		629530451C045BC200558652 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		629530461C045BC200558652 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		629530471C045BC200558652 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		62A2C54E1C04413C00B8BEBE /* JYQQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYQQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A2C5521C04413C00B8BEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62A2C5541C04413C00B8BEBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +161,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62952F5B1C044F3B00558652 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				62952F5C1C044F3B00558652 /* Category */,
+				62952F5D1C044F3B00558652 /* Resource */,
+				62952F5E1C044F3B00558652 /* ThirdParty */,
+				62952F5F1C044F3B00558652 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		62952F5C1C044F3B00558652 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		62952F5D1C044F3B00558652 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62952F631C0450D500558652 /* Musics.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		62952F5E1C044F3B00558652 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6295302D1C045BC200558652 /* Masonry */,
+				629530071C04550000558652 /* MJExtension */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		62952F5F1C044F3B00558652 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				62952F601C044F6A00558652 /* JYDataTool.h */,
+				62952F611C044F6A00558652 /* JYDataTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		629530071C04550000558652 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				629530081C04550000558652 /* MJDictionaryCache.h */,
+				629530091C04550000558652 /* MJDictionaryCache.m */,
+				6295300A1C04550000558652 /* MJExtension.h */,
+				6295300B1C04550000558652 /* MJExtensionConst.h */,
+				6295300C1C04550000558652 /* MJExtensionConst.m */,
+				6295300D1C04550000558652 /* MJFoundation.h */,
+				6295300E1C04550000558652 /* MJFoundation.m */,
+				6295300F1C04550000558652 /* MJProperty.h */,
+				629530101C04550000558652 /* MJProperty.m */,
+				629530111C04550000558652 /* MJPropertyKey.h */,
+				629530121C04550000558652 /* MJPropertyKey.m */,
+				629530131C04550000558652 /* MJPropertyType.h */,
+				629530141C04550000558652 /* MJPropertyType.m */,
+				629530151C04550000558652 /* NSObject+MJClass.h */,
+				629530161C04550000558652 /* NSObject+MJClass.m */,
+				629530171C04550000558652 /* NSObject+MJCoding.h */,
+				629530181C04550000558652 /* NSObject+MJCoding.m */,
+				629530191C04550000558652 /* NSObject+MJKeyValue.h */,
+				6295301A1C04550000558652 /* NSObject+MJKeyValue.m */,
+				6295301B1C04550000558652 /* NSObject+MJProperty.h */,
+				6295301C1C04550000558652 /* NSObject+MJProperty.m */,
+				6295301D1C04550000558652 /* NSString+MJExtension.h */,
+				6295301E1C04550000558652 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		6295302D1C045BC200558652 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6295302F1C045BC200558652 /* MASCompositeConstraint.h */,
+				629530301C045BC200558652 /* MASCompositeConstraint.m */,
+				629530311C045BC200558652 /* MASConstraint+Private.h */,
+				629530321C045BC200558652 /* MASConstraint.h */,
+				629530331C045BC200558652 /* MASConstraint.m */,
+				629530341C045BC200558652 /* MASConstraintMaker.h */,
+				629530351C045BC200558652 /* MASConstraintMaker.m */,
+				629530361C045BC200558652 /* MASLayoutConstraint.h */,
+				629530371C045BC200558652 /* MASLayoutConstraint.m */,
+				629530381C045BC200558652 /* Masonry.h */,
+				629530391C045BC200558652 /* MASUtilities.h */,
+				6295303A1C045BC200558652 /* MASViewAttribute.h */,
+				6295303B1C045BC200558652 /* MASViewAttribute.m */,
+				6295303C1C045BC200558652 /* MASViewConstraint.h */,
+				6295303D1C045BC200558652 /* MASViewConstraint.m */,
+				6295303E1C045BC200558652 /* NSArray+MASAdditions.h */,
+				6295303F1C045BC200558652 /* NSArray+MASAdditions.m */,
+				629530401C045BC200558652 /* NSArray+MASShorthandAdditions.h */,
+				629530411C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				629530421C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				629530431C045BC200558652 /* View+MASAdditions.h */,
+				629530441C045BC200558652 /* View+MASAdditions.m */,
+				629530451C045BC200558652 /* View+MASShorthandAdditions.h */,
+				629530461C045BC200558652 /* ViewController+MASAdditions.h */,
+				629530471C045BC200558652 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		62A2C5451C04413C00B8BEBE = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +290,11 @@
 		62A2C5501C04413C00B8BEBE /* JYQQMusic */ = {
 			isa = PBXGroup;
 			children = (
+				62952F5B1C044F3B00558652 /* Other */,
 				62A2C5841C0441C200B8BEBE /* DetailInterface */,
-				62A2C5881C0441C200B8BEBE /* ListInterface */,
 				62A2C58C1C0441C200B8BEBE /* PlayInterface */,
 				62A2C5901C0441D200B8BEBE /* System */,
+				62A2C5881C0441C200B8BEBE /* ListInterface */,
 				62A2C5511C04413C00B8BEBE /* Supporting Files */,
 			);
 			path = JYQQMusic;
@@ -177,6 +370,8 @@
 		62A2C5891C0441C200B8BEBE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62952F551C04473A00558652 /* JYListViewController.h */,
+				62952F561C04473A00558652 /* JYListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +379,10 @@
 		62A2C58A1C0441C200B8BEBE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				62952F651C04510100558652 /* JYSong.h */,
+				62952F661C04510100558652 /* JYSong.m */,
+				62952F581C044D4500558652 /* JYListTableViewDataSource.h */,
+				62952F591C044D4500558652 /* JYListTableViewDataSource.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +390,8 @@
 		62A2C58B1C0441C200B8BEBE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6295302A1C045AD900558652 /* JYListTableViewCell.h */,
+				6295302B1C045AD900558652 /* JYListTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -347,6 +548,7 @@
 			files = (
 				62A2C5611C04413C00B8BEBE /* LaunchScreen.storyboard in Resources */,
 				62A2C55E1C04413C00B8BEBE /* Assets.xcassets in Resources */,
+				62952F641C0450D500558652 /* Musics.plist in Resources */,
 				62A2C55C1C04413C00B8BEBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,8 +574,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6295302C1C045AD900558652 /* JYListTableViewCell.m in Sources */,
+				629530261C04550100558652 /* NSObject+MJCoding.m in Sources */,
+				629530201C04550000558652 /* MJExtensionConst.m in Sources */,
+				629530251C04550100558652 /* NSObject+MJClass.m in Sources */,
+				6295304A1C045BC200558652 /* MASConstraint.m in Sources */,
+				6295304D1C045BC200558652 /* MASViewAttribute.m in Sources */,
+				629530231C04550100558652 /* MJPropertyKey.m in Sources */,
+				629530491C045BC200558652 /* MASCompositeConstraint.m in Sources */,
+				629530511C045BC200558652 /* View+MASAdditions.m in Sources */,
 				62A2C5561C04413C00B8BEBE /* AppDelegate.m in Sources */,
+				62952F621C044F6A00558652 /* JYDataTool.m in Sources */,
+				629530221C04550100558652 /* MJProperty.m in Sources */,
+				629530211C04550000558652 /* MJFoundation.m in Sources */,
+				6295304F1C045BC200558652 /* NSArray+MASAdditions.m in Sources */,
+				629530501C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6295301F1C04550000558652 /* MJDictionaryCache.m in Sources */,
+				62952F571C04473A00558652 /* JYListViewController.m in Sources */,
+				62952F671C04510100558652 /* JYSong.m in Sources */,
+				629530521C045BC200558652 /* ViewController+MASAdditions.m in Sources */,
+				6295304E1C045BC200558652 /* MASViewConstraint.m in Sources */,
+				6295304B1C045BC200558652 /* MASConstraintMaker.m in Sources */,
+				629530241C04550100558652 /* MJPropertyType.m in Sources */,
 				62A2C5531C04413C00B8BEBE /* main.m in Sources */,
+				629530271C04550100558652 /* NSObject+MJKeyValue.m in Sources */,
+				6295304C1C045BC200558652 /* MASLayoutConstraint.m in Sources */,
+				629530291C04550100558652 /* NSString+MJExtension.m in Sources */,
+				62952F5A1C044D4500558652 /* JYListTableViewDataSource.m in Sources */,
+				629530281C04550100558652 /* NSObject+MJProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +827,7 @@
 				62A2C57D1C04413C00B8BEBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62A2C57E1C04413C00B8BEBE /* Build configuration list for PBXNativeTarget "JYQQMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +836,7 @@
 				62A2C5801C04413C00B8BEBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62A2C5811C04413C00B8BEBE /* Build configuration list for PBXNativeTarget "JYQQMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +845,7 @@
 				62A2C5831C04413C00B8BEBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,6 +28,7 @@ static NSString * const cellIdentifier = @"cellIdentifier";
     if (cell == nil) {
         cell = [[JYListTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
         cell.backgroundColor = [UIColor clearColor];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }

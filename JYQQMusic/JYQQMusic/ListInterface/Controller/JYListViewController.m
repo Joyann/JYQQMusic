@@ -66,6 +66,8 @@
     tableView.delegate = self;
     tableView.dataSource = self.listDataSource;
     tableView.rowHeight = self.listDataSource.rowHeight;
+    tableView.backgroundView = self.listDataSource.backgroundImageView;
+    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:tableView];
     self.tableView = tableView;
 }
@@ -86,6 +88,11 @@
             cell.transform = CGAffineTransformIdentity;
         } completion:nil];
     }];
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 

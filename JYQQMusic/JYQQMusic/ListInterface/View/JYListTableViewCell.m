@@ -27,6 +27,7 @@ static NSString * const cellIdentifier = @"cellIdentifier";
     JYListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
         cell = [[JYListTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell.backgroundColor = [UIColor clearColor];
     }
     return cell;
 }
@@ -58,10 +59,12 @@ static NSString * const cellIdentifier = @"cellIdentifier";
     [self addSubview:imageView];
     
     UILabel *songTitleLabel = [[UILabel alloc] init];
+    songTitleLabel.textColor = [UIColor whiteColor];
     self.songTitleLabel = songTitleLabel;
     [self addSubview:songTitleLabel];
     
     UILabel *songDetailLabel = [[UILabel alloc] init];
+    songDetailLabel.textColor = [UIColor whiteColor];
     self.songDetailLabel = songDetailLabel;
     [self addSubview:songDetailLabel];
 }

@@ -26,6 +26,7 @@
             self.songs = songs;
         }];
         self.rowHeight = 100.0;
+        self.backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"QQListBack"]];
     }
     return self;
 }

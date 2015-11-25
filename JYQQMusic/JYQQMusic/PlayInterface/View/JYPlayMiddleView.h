@@ -10,6 +10,8 @@
 
 @interface JYPlayMiddleView : UIView
 
+- (void)startRotate;
+
 + (instancetype)middleViewWithImage: (UIImage *)image;
 
 @end

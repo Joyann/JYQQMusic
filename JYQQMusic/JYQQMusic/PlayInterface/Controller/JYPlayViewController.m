@@ -43,6 +43,13 @@
     self.toolBar.frame = self.view.bounds;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.middleView startRotate];
+}
+
 #pragma mark - Private Methods
 
 - (UIStatusBarStyle)preferredStatusBarStyle

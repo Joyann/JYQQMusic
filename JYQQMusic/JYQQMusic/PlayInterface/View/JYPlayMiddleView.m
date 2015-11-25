@@ -45,7 +45,19 @@
     self.imageView.layer.masksToBounds = YES;
 }
 
-#pragma mark - Privates Methdos
+#pragma mark - Public Methods
+
+- (void)startRotate
+{
+    CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    rotationAnimation.fromValue = @(0);
+    rotationAnimation.toValue = @(M_PI * 2);
+    rotationAnimation.duration = 30.0;
+    rotationAnimation.repeatCount = MAXFLOAT;
+    [self.imageView.layer addAnimation:rotationAnimation forKey:@"imageView.rotation"];
+}
+
+#pragma mark - Private Methdos
 
 - (void)addSubviews
 {

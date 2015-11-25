@@ -9,12 +9,14 @@
 #import "JYPlayViewController.h"
 #import "JYSong.h"
 #import "JYPlayHeaderView.h"
+#import "JYPlayOperationView.h"
 #import "Masonry.h"
 
 @interface JYPlayViewController ()
 @property (nonatomic, weak) UIImageView *backgroundImageView;
 @property (nonatomic, weak) UIToolbar *toolBar;
 @property (nonatomic, weak) JYPlayHeaderView *headerView;
+@property (nonatomic, weak) JYPlayOperationView *operationView;
 @end
 
 @implementation JYPlayViewController
@@ -61,19 +63,33 @@
     self.toolBar = toolBar;
     [self.backgroundImageView addSubview:toolBar];
     
-    // 标题栏
+    // 头部视图
     JYPlayHeaderView *headerView = [JYPlayHeaderView headerViewWithTitle:self.song.name subTitle:self.song.singer];
     self.headerView = headerView;
     [self.view addSubview:headerView];
+    
+    // 操作视图
+    JYPlayOperationView *operationView = [[JYPlayOperationView alloc] init];
+    self.operationView = operationView;
+    [self.view addSubview:operationView];
 }
 
 - (void)addConstraints
 {
+    // 添加头部视图的约束.
     [self.headerView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.equalTo(self.view.mas_leading);
         make.top.equalTo(self.view.mas_top).offset(40);
         make.trailing.equalTo(self.view.mas_trailing);
         make.height.equalTo(@(100));
+    }];
+    
+    // 添加操作视图的约束.
+    [self.operationView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view.mas_bottom);
+        make.leading.equalTo(self.view.mas_leading);
+        make.trailing.equalTo(self.view.mas_trailing);
+        make.height.equalTo(@(150));
     }];
 }
 

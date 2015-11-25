@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6288383B1C05830900C2C4A2 /* JYPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288383A1C05830900C2C4A2 /* JYPlayViewController.m */; };
+		6288383E1C058D1B00C2C4A2 /* JYPlayHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288383D1C058D1B00C2C4A2 /* JYPlayHeaderView.m */; };
 		62952F571C04473A00558652 /* JYListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F561C04473A00558652 /* JYListViewController.m */; };
 		62952F5A1C044D4500558652 /* JYListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F591C044D4500558652 /* JYListTableViewDataSource.m */; };
 		62952F621C044F6A00558652 /* JYDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 62952F611C044F6A00558652 /* JYDataTool.m */; };
@@ -61,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		628838391C05830900C2C4A2 /* JYPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayViewController.h; sourceTree = "<group>"; };
+		6288383A1C05830900C2C4A2 /* JYPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPlayViewController.m; sourceTree = "<group>"; };
+		6288383C1C058D1B00C2C4A2 /* JYPlayHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayHeaderView.h; sourceTree = "<group>"; };
+		6288383D1C058D1B00C2C4A2 /* JYPlayHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPlayHeaderView.m; sourceTree = "<group>"; };
 		62952F551C04473A00558652 /* JYListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYListViewController.h; sourceTree = "<group>"; };
 		62952F561C04473A00558652 /* JYListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYListViewController.m; sourceTree = "<group>"; };
 		62952F581C044D4500558652 /* JYListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYListTableViewDataSource.h; path = JYQQMusic/ListInterface/Model/JYListTableViewDataSource.h; sourceTree = SOURCE_ROOT; };
@@ -409,6 +415,8 @@
 		62A2C58D1C0441C200B8BEBE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				628838391C05830900C2C4A2 /* JYPlayViewController.h */,
+				6288383A1C05830900C2C4A2 /* JYPlayViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -423,6 +431,8 @@
 		62A2C58F1C0441C200B8BEBE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6288383C1C058D1B00C2C4A2 /* JYPlayHeaderView.h */,
+				6288383D1C058D1B00C2C4A2 /* JYPlayHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -590,7 +600,9 @@
 				6295304F1C045BC200558652 /* NSArray+MASAdditions.m in Sources */,
 				629530501C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				6295301F1C04550000558652 /* MJDictionaryCache.m in Sources */,
+				6288383B1C05830900C2C4A2 /* JYPlayViewController.m in Sources */,
 				62952F571C04473A00558652 /* JYListViewController.m in Sources */,
+				6288383E1C058D1B00C2C4A2 /* JYPlayHeaderView.m in Sources */,
 				62952F671C04510100558652 /* JYSong.m in Sources */,
 				629530521C045BC200558652 /* ViewController+MASAdditions.m in Sources */,
 				6295304E1C045BC200558652 /* MASViewConstraint.m in Sources */,

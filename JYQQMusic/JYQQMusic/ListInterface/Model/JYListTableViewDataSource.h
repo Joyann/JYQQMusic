@@ -13,5 +13,6 @@
 
 @property (nonatomic, assign) CGFloat rowHeight;
 @property (nonatomic, strong) UIView *backgroundImageView;
+@property (nonatomic, strong) NSArray *songs;
 
 @end

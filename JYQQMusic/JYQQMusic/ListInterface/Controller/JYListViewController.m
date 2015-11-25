@@ -8,6 +8,7 @@
 
 #import "JYListViewController.h"
 #import "JYListTableViewDataSource.h"
+#import "JYPlayViewController.h"
 
 @interface JYListViewController () <UITableViewDelegate>
 
@@ -93,6 +94,22 @@
 - (BOOL)prefersStatusBarHidden
 {
     return YES;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    JYPlayViewController *playVC = [[JYPlayViewController alloc] init];
+    
+    playVC.song = self.listDataSource.songs[indexPath.row];
+
+    playVC.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.navigationController pushViewController:playVC animated:YES];
+    
 }
 
 

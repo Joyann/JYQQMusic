@@ -11,7 +11,6 @@
 #import "JYListTableViewCell.h"
 
 @interface JYListTableViewDataSource ()
-@property (nonatomic, strong) NSArray *songs;
 @end
 
 @implementation JYListTableViewDataSource

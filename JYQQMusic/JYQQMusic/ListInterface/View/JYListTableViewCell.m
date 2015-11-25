@@ -56,6 +56,8 @@ static NSString * const cellIdentifier = @"cellIdentifier";
 {
     UIImageView *imageView = [[UIImageView alloc] init];
     self.songImageView = imageView;
+    self.songImageView.layer.cornerRadius = 40;
+    self.songImageView.layer.masksToBounds = YES;
     [self addSubview:imageView];
     
     UILabel *songTitleLabel = [[UILabel alloc] init];

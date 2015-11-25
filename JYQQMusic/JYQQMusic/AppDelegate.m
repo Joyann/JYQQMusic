@@ -22,8 +22,11 @@
     
     JYListViewController *listVC = [[JYListViewController alloc] init];
     listVC.view.backgroundColor = [UIColor whiteColor];
+
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:listVC];
+    navController.navigationBarHidden = YES;
     
-    self.window.rootViewController = listVC;
+    self.window.rootViewController = navController;
     
     [self.window makeKeyAndVisible];
     

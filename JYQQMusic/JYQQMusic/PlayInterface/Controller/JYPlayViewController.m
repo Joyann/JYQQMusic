@@ -10,6 +10,7 @@
 #import "JYSong.h"
 #import "JYPlayHeaderView.h"
 #import "JYPlayOperationView.h"
+#import "JYPlayMiddleView.h"
 #import "Masonry.h"
 
 @interface JYPlayViewController ()
@@ -17,6 +18,7 @@
 @property (nonatomic, weak) UIToolbar *toolBar;
 @property (nonatomic, weak) JYPlayHeaderView *headerView;
 @property (nonatomic, weak) JYPlayOperationView *operationView;
+@property (nonatomic, weak) JYPlayMiddleView *middleView;
 @end
 
 @implementation JYPlayViewController
@@ -72,6 +74,12 @@
     JYPlayOperationView *operationView = [[JYPlayOperationView alloc] init];
     self.operationView = operationView;
     [self.view addSubview:operationView];
+    
+    // 中间视图
+    JYPlayMiddleView *middleView = [JYPlayMiddleView middleViewWithImage:[UIImage imageNamed:self.song.icon]];
+    self.middleView = middleView;
+    [self.view addSubview:middleView];
+    
 }
 
 - (void)addConstraints
@@ -90,6 +98,14 @@
         make.leading.equalTo(self.view.mas_leading);
         make.trailing.equalTo(self.view.mas_trailing);
         make.height.equalTo(@(150));
+    }];
+    
+    // 添加中间视图的约束.
+    [self.middleView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.equalTo(self.view.mas_leading);
+        make.trailing.equalTo(self.view.mas_trailing);
+        make.bottom.equalTo(self.operationView.mas_top).offset(-8);
+        make.top.equalTo(self.headerView.mas_bottom).offset(-16);
     }];
 }
 

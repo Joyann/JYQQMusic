@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625D4F541C05BEAF0058F9EB /* JYPlayMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D4F531C05BEAF0058F9EB /* JYPlayMiddleView.m */; };
 		6288383B1C05830900C2C4A2 /* JYPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288383A1C05830900C2C4A2 /* JYPlayViewController.m */; };
 		6288383E1C058D1B00C2C4A2 /* JYPlayHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288383D1C058D1B00C2C4A2 /* JYPlayHeaderView.m */; };
 		628838411C05A27000C2C4A2 /* JYPlayOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 628838401C05A27000C2C4A2 /* JYPlayOperationView.m */; };
@@ -64,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		625D4F521C05BEAF0058F9EB /* JYPlayMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayMiddleView.h; sourceTree = "<group>"; };
+		625D4F531C05BEAF0058F9EB /* JYPlayMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPlayMiddleView.m; sourceTree = "<group>"; };
 		628838391C05830900C2C4A2 /* JYPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayViewController.h; sourceTree = "<group>"; };
 		6288383A1C05830900C2C4A2 /* JYPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPlayViewController.m; sourceTree = "<group>"; };
 		6288383C1C058D1B00C2C4A2 /* JYPlayHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayHeaderView.h; sourceTree = "<group>"; };
@@ -438,6 +441,8 @@
 				6288383D1C058D1B00C2C4A2 /* JYPlayHeaderView.m */,
 				6288383F1C05A27000C2C4A2 /* JYPlayOperationView.h */,
 				628838401C05A27000C2C4A2 /* JYPlayOperationView.m */,
+				625D4F521C05BEAF0058F9EB /* JYPlayMiddleView.h */,
+				625D4F531C05BEAF0058F9EB /* JYPlayMiddleView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -605,6 +610,7 @@
 				629530211C04550000558652 /* MJFoundation.m in Sources */,
 				6295304F1C045BC200558652 /* NSArray+MASAdditions.m in Sources */,
 				629530501C045BC200558652 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				625D4F541C05BEAF0058F9EB /* JYPlayMiddleView.m in Sources */,
 				6295301F1C04550000558652 /* MJDictionaryCache.m in Sources */,
 				6288383B1C05830900C2C4A2 /* JYPlayViewController.m in Sources */,
 				62952F571C04473A00558652 /* JYListViewController.m in Sources */,
